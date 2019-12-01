@@ -4,5 +4,5 @@ lte_interface = '4G'
 
 
 
-os.system("netsh interface set interface '" + lte_interface + "' disabled")
+os.system("netsh mbn disconnect mobiltelefon")
 os.system("netsh interface set interface '" + wifi_interface + "' enabled")
