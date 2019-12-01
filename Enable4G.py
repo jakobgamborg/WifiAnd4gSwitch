@@ -1,5 +1,5 @@
 import os
-wifi_interface = 'WiFi'
+wifi_interface = 'Wi-Fi'
 lte_interface = '4G'
 
 
